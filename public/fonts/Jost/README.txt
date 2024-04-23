@@ -1,24 +1,36 @@
-Manrope Variable Font
-=====================
+Jost Variable Font
+==================
 
-This download contains Manrope as both a variable font and static fonts.
+This download contains Jost as both variable fonts and static fonts.
 
-Manrope is a variable font with this axis:
+Jost is a variable font with this axis:
   wght
 
-This means all the styles are contained in a single file:
-  Manrope-VariableFont_wght.ttf
+This means all the styles are contained in these files:
+  Jost-VariableFont_wght.ttf
+  Jost-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Manrope:
-  static/Manrope-ExtraLight.ttf
-  static/Manrope-Light.ttf
-  static/Manrope-Regular.ttf
-  static/Manrope-Medium.ttf
-  static/Manrope-SemiBold.ttf
-  static/Manrope-Bold.ttf
-  static/Manrope-ExtraBold.ttf
+in those cases you can use the static font files for Jost:
+  static/Jost-Thin.ttf
+  static/Jost-ExtraLight.ttf
+  static/Jost-Light.ttf
+  static/Jost-Regular.ttf
+  static/Jost-Medium.ttf
+  static/Jost-SemiBold.ttf
+  static/Jost-Bold.ttf
+  static/Jost-ExtraBold.ttf
+  static/Jost-Black.ttf
+  static/Jost-ThinItalic.ttf
+  static/Jost-ExtraLightItalic.ttf
+  static/Jost-LightItalic.ttf
+  static/Jost-Italic.ttf
+  static/Jost-MediumItalic.ttf
+  static/Jost-SemiBoldItalic.ttf
+  static/Jost-BoldItalic.ttf
+  static/Jost-ExtraBoldItalic.ttf
+  static/Jost-BlackItalic.ttf
 
 Get started
 -----------
