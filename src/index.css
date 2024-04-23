@@ -1,0 +1,161 @@
+@import url(./App.css);
+
+/*FONTS------------------------------------------------------
+
+/*-----ORBITRON-----*/
+/*Regular
+@font-face {
+  font-family: 'Orbitron';
+  src: url('/graphion/public/fonts/Orbitron/Orbitron-Regular.ttf') format('ttf');
+  font-weight:500;
+}
+*/
+/* Bold 
+@font-face {
+  font-family: 'Orbitron';
+  src: url('/graphion/public/fonts/Orbitron/Orbitron-Bold.ttf') format('ttf');
+  font-weight:700;
+}
+*/
+/* Extra Bold 
+@font-face {
+  font-family: 'Orbitron';
+  src: url('/graphion/public/fonts/Orbitron/Orbitron-ExtraBold.ttf') format('ttf');
+  font-weight:900;
+}*/
+
+
+
+/* Reset.css */
+
+/* Box model */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typography */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Lists */
+ul, ol{
+  list-style-type: none;
+}
+
+/* Forms */
+input, button, textarea, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+/* Images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Additional Reset Styles (optional) */
+
+/* Remove default button styles */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Remove input focus outline in some browsers */
+input:focus, button:focus {
+  outline: none;
+}
+#root {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0rem 0rem;
+  text-align: center;
+  font-family: 'Jost';
+  /*background-color:paleturquoise;*/
+
+}
+
+.neutral-button{
+  color:rgb(1, 9, 16);
+  background-color: aliceblue;
+  border: 3px solid black;
+  padding: 0.5rem 1rem;
+  margin: 5px;
+  border-radius: 7px;
+  font-family: "Jost";
+  font-size: inherit;
+  transition: 0.5s;
+}
+.neutral-button:hover{
+  color:aliceblue;
+  background-color: black;
+  border: 3px solid aliceblue;
+  font-family: "Jost";
+  cursor: pointer;
+}
+.cta-button{
+  color:rgb(1, 9, 16);
+  background-color: rgb(71, 255, 34);
+  border: 3px solid black;
+  padding: 0.5rem 1rem;
+  margin: 5px;
+  border-radius: 7px;
+  font-family: "Jost";
+  font-size: inherit;
+  transition: 0.5s;
+}
+.cta-button:hover{
+  color:rgb(71, 255, 34);
+  background-color: black;
+  border: 3px solid rgb(71, 255, 34);
+  border-radius: 7px;
+  cursor: pointer;
+}
+h1{
+  font-family: 'Jost';
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.blurry-background {
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 99%;
+  width: 100%;
+  backdrop-filter: blur(2.5px); /* Adjust the blur value as needed */
+  background: rgba(255, 255, 255, 0.25); /* Adjust the background color and opacity as needed */
+  text-align: center;
+}
