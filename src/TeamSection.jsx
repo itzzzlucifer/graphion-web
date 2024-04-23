@@ -13,7 +13,7 @@ const team = [
         links: {
             facebook: 'https://www.facebook.com/prajwol.sapkota.169/',
             linkedIn: 'https://www.linkedin.com/in/prajwol-sapkota/',
-            website: 'https://itzzzlucifer.github.io/portfolio/',
+            website: 'https://www.prajwolsapkota.com.np',
         },
         img: prajwol
     },{
