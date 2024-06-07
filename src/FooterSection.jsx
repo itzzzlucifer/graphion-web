@@ -35,7 +35,7 @@ function FooterSection() {
             <div className="contact-items-container">
                 {contacts.map((contact)=>{
                     if(contact.link === '#'){
-                        return <><span className='contact-item'>{contact.media}: {contact.name}</span><br/></>
+                        return <><span className='contact-item' key={contacts.indexOf(contact)}>{contact.media}: {contact.name}</span><br/></>
                     }
                     else if(contact.link !== '#'){
                         return <><span className='contact-item'>{contact.media}: <a href={contact.link} target='_blank'>{contact.name}</a></span><br/></>

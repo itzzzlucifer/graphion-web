@@ -1,4 +1,4 @@
-import prajwol from './assets/team-profile-prajwol.jpg';
+import prajwol from './assets/team-profile-prajwol2.jpeg';
 import sampurna from './assets/team-profile-sampurna.jpg';
 import shristika from './assets/team-profile-shristika.png';
 import linkedinIcon from './assets/linkedin-icon.svg';
@@ -9,17 +9,17 @@ const team = [
     {
         name: 'Prajwol Sapkota',
         title: 'Lead Developer',
-        desc: "\"Hey shawty let me be the JavaScript to your React hmmmm. I swear im not a geek babe. uhh these geeks on the right aren't my friends chiii.\"",
+        desc: "\"I lead the development team, bringing my enthusiasm and leadership skills to build awesome solutions.\"",
         links: {
             facebook: 'https://www.facebook.com/prajwol.sapkota.169/',
             linkedIn: 'https://www.linkedin.com/in/prajwol-sapkota/',
-            website: 'https://www.prajwolsapkota.com.np',
+            website: 'https://prajwolsapkota.vercel.app/',
         },
         img: prajwol
     },{
         name: 'Sampurna Karki',
         title: 'Digital Marketting Lead',
-        desc: '\"Hey you boy, fuck you and your itty bitty self-respect, you see this woman on the right? Thas ma girl, don\'t you dare check her out.\"',
+        desc: '\"As Digital Marketing Lead, my expertise and maturity drive brand success.\"',
         links: {
             facebook: 'https://www.facebook.com/sampurna.karki.5095/',
             linkedIn: 'https://www.linkedin.com/in/sampurna-karki-7234bb301/',
@@ -29,7 +29,7 @@ const team = [
     },{
         name: 'Shristika Pradhan',
         title: 'Graphic Designer',
-        desc: '\"Uhmmmm where am I? Uhmmm... hehe. Sorry I\'m a shy kinda person. I don\t speak much unless it\'s with my boyfriend shampoo.\"',
+        desc: '\" I\'m the Graphic Designer, bringing sweetness and kindness to visuals that capture attention.\"',
         links: {
             facebook: 'https://www.facebook.com/shristi.pradhan.104',
             linkedIn: '#',

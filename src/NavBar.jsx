@@ -1,3 +1,6 @@
+import reactLogo from './assets/react.svg';
+import CollapsibleSidebar from './utils/CollapsibleSidebar';
+
 const NavBar = () => {
     return (
       <nav className="navbar">
@@ -6,11 +9,12 @@ const NavBar = () => {
               <li className="nav-text"><a href="#services">Services</a></li>
               <li className="nav-text"><a href="#pricing">Pricing</a></li>
           </ul>
-          <div className="logo"><img alt="Graphion_logo" /></div>
+          <div className="logo"><img src="./src/assets/Graphion_logo.svg" alt="Graphion_logo" /></div>
           <div className="nav-container-right"><button className="cta-button"><a href="#contact">Contact Now</a></button></div>
       </nav>
     );
   };
   
+
   export default NavBar;
   
