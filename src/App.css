@@ -674,11 +674,13 @@ footer{
 @media only screen and (max-width: 480px) and (orientation: portrait) {
   .nav-container-left,.nav-container-right{
     visibility: hidden;
+    display: none;
   }
-  .navbar{
+  nav.navbar{
     padding-right: 0;
     padding-left: 0;
     width: 100vw;
+    height: 12vh;
   }
   .hero-section{
     width: 100%;
