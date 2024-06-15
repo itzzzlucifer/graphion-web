@@ -664,7 +664,10 @@ footer{
   text-transform: uppercase;
   font-weight: 700;
 }
-
+.sidebar-button{
+  display: none;
+  visibility: hidden;
+}
 
 
 
@@ -681,6 +684,22 @@ footer{
     padding-left: 0;
     width: 100vw;
     height: 12vh;
+  }
+  .sidebar-button{
+    display: block;
+    visibility: visible;
+    padding: 1rem;
+    cursor: pointer;
+    height: 10vh;
+    width: 10vh;
+  }
+  .sidebar-button>img{
+    height: 100%;
+    width: 100%;
+    transition: 1s transform ease-out;
+  }
+  .sidebar-button>img:hover, .sidebar-button>img:focus {
+    transform: scale(1.2);
   }
   .hero-section{
     width: 100%;

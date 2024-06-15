@@ -1,5 +1,6 @@
 import reactLogo from './assets/react.svg';
 import GraphionLogo from './assets/Graphion_logo.png';
+import sidebarIcon from './assets/sidebar-icon.png';
 
 const NavBar = () => {
     return (
@@ -11,7 +12,9 @@ const NavBar = () => {
           </ul>
           <div className="logo"><img src={GraphionLogo} alt="Graphion_logo" /></div>
           <div className="nav-container-right"><button className="cta-button"><a href="#contact">Contact Now</a></button></div>
+          <button type="button" className='sidebar-button'><img src={sidebarIcon} alt="icon" /></button>
           {/*
+
           <div className='collapsible-nav'>
             <li>Home</li>
             <li>Projects</li>
