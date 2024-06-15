@@ -11,6 +11,14 @@ const NavBar = () => {
           </ul>
           <div className="logo"><img src={GraphionLogo} alt="Graphion_logo" /></div>
           <div className="nav-container-right"><button className="cta-button"><a href="#contact">Contact Now</a></button></div>
+          {/*
+          <div className='collapsible-nav'>
+            <li>Home</li>
+            <li>Projects</li>
+            <li>About</li>
+            <li>Contacts</li>
+          </div>
+          */}
       </nav>
     );
   };

@@ -682,6 +682,7 @@ footer{
   }
   .hero-section{
     width: 100%;
+    height: 100vh;
     padding: 7.5rem 1rem 3rem 1rem;
     display: flex;
     flex-direction: column;
@@ -689,8 +690,9 @@ footer{
     align-items: center;
   }
   .hero-title{
-    font-size: 3.5rem;
-    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Orbitron';
+    text-align: left;
   }
   .hero-desc{
     display: flex;
@@ -700,8 +702,9 @@ footer{
     height: 50%;
   }
   .hero-desc>p{
-    text-align: center;
-    font-size: 1.5rem;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 300;
   }
   .article-actions-box{
     width: auto;
@@ -715,12 +718,14 @@ footer{
   .hero-section .article-actions-box>button[class="cta-button"]
   ,.hero-section .article-actions-box>button[class="neutral-button"]{
     width: 10rem;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.5rem;
   }
-  .hero-section>aside{
+  .hero-section .article-actions-box>button[class="neutral-button"]{
     visibility: hidden;
     display: none;
+  }
+  .hero-section>aside{
   }
   .hero-background-mask{
     
