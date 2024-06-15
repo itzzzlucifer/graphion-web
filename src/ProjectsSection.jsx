@@ -4,7 +4,7 @@ import Projects from './Projects'
 function ProjectsSection() {
   return (
     <div className="projects-section">
-      <h2 className="projects-title">My Projects</h2>
+      <h2 className="projects-title">Our Projects</h2>
       <Projects></Projects>
     </div>
   )

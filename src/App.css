@@ -552,7 +552,9 @@ footer{
 }
 .projects-title{
   text-align: center;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
 }
 .project-list-container{
   padding: 0;
@@ -567,7 +569,7 @@ footer{
   border-radius: 1rem;
   height: 25rem;
   width: 15rem;
-  margin: 1rem;
+  margin: 1rem 1rem;
   padding: 0rem;
   display: flex;
   flex-direction: column;
@@ -672,6 +674,11 @@ footer{
 @media only screen and (max-width: 480px) and (orientation: portrait) {
   .nav-container-left,.nav-container-right{
     visibility: hidden;
+  }
+  .navbar{
+    padding-right: 0;
+    padding-left: 0;
+    width: 100vw;
   }
   .hero-section{
     width: 100%;
@@ -780,6 +787,17 @@ footer{
 
   .sidebar {
     left: 0; /* Show sidebar on small screens */
+  }
+  .project-item{
+  }
+  .projects-section{
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+  .project-list-container{
+    grid-template-columns: repeat(3, 1fr);
+    width: 100vw;
+    overflow-y: scroll;
   }
 }
 

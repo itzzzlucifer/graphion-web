@@ -1,6 +1,5 @@
 import reactLogo from './assets/react.svg';
 import GraphionLogo from './assets/Graphion_logo.png';
-import CollapsibleSidebar from './utils/CollapsibleSidebar';
 
 const NavBar = () => {
     return (
