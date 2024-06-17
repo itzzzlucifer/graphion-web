@@ -1,6 +1,9 @@
 const FeatureSection = () => {
     return (
         <div className="feature-section section">
+            <aside className="feature-image-container article-image-container">
+                <img alt="" />
+            </aside>
             <div className="feature-left-article">
                 <span className="feature-sub-title sub-title">Innovative</span>
                 <h1 className="feature-title title">
@@ -20,9 +23,6 @@ const FeatureSection = () => {
                     <button className="neutral-button">Learn More</button>
                 </div>
             </div>
-            <aside className="feature-image-container article-image-container">
-                <img alt="" />
-            </aside>
       </div>
     );
   };

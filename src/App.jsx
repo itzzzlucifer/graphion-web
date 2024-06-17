@@ -12,8 +12,8 @@ function App(){
       <NavBar/>
       <HeroSection/>
       <FeatureSection/>
-      <PricingSection/>
       <ProjectsSection/>
+      <PricingSection/>
       <TeamSection/>
       <Newsletter/>
       <FooterSection/>
